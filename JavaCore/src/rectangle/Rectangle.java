@@ -14,7 +14,8 @@ public class Rectangle {
 	int width;
 
 	public Rectangle() {
-
+		this.width = 20;
+		this.hight = 10;
 	}
 
 	public Rectangle(int hight, int width) {
@@ -25,11 +26,11 @@ public class Rectangle {
 
 	public String perimetr(String color) {
 		int perimeter = (hight + width) * 2;
-		return "Периметр прямокутника " + color+ " = " + perimeter;
+		return "Периметр прямокутника " + color + " = " + perimeter;
 	}
 
 	public String square(String color) {
 		int square = hight * width;
-		return "Площа прямокутника " + color+ " = " + square;
+		return "Площа прямокутника " + color + " = " + square;
 	}
 }

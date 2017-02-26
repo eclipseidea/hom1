@@ -12,8 +12,6 @@ public class RectangleMaster {
 
 	public static void main(String[] args) {	
 		Rectangle first= new Rectangle();
-		first.width=20;
-		first.hight=10;
 		String color="red";
 		System.out.println(first.perimetr(color));	
 	    System.out.println(first.square(color));
